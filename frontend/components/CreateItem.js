@@ -38,7 +38,7 @@ class CreateItem extends Component {
     data.append("file", files[0]);
     data.append("upload_preset", "sickfits");
     const response = await fetch(
-      "https://api.cloudinary.com/v1_1/tlent/image/upload",
+      "https://api.cloudinary.com/v1_1/wesbostutorial/image/upload",
       {
         method: "POST",
         body: data
